@@ -1,0 +1,43 @@
+.rootContainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 50px;
+}
+
+.productContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10rem;
+  align-content: center;
+}
+
+.productCard {
+  display: flex;
+  border: 0.1rem solid rgb(51, 37, 20);
+  border-radius: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem 1rem;
+}
+
+.productImage {
+  max-width: 10em;
+  max-height: 10em;
+}
+
+.productTitle {
+  font-size: 20px;
+}
+
+.productDescription {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+  .productContainer {
+    grid-template-columns: repeat(1, 1fr); /* Change to single column layout */
+  }
+}

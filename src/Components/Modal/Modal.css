@@ -1,0 +1,55 @@
+.modalContent{
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+.modalContainer{
+    display: flex;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+.modalImage{
+    width: 500px;
+}
+.modalClose{
+    position: fixed;
+    float: right;
+    top: 0;
+}
+
+.productInfoContainer{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+}
+
+#productName{
+    font-size: larger;
+}
+
+#productCategory{
+    font-size: medium;
+}
+
+#productDescription{
+    font-size: medium;
+    font-weight: lighter;
+}
+
+.closeButton{
+    margin-top: 3rem;
+    height: 3rem;
+    background-color: rgb(166, 221, 203);
+    font-size: large;
+}
